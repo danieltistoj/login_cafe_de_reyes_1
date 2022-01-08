@@ -79,3 +79,17 @@ body {
 .login-box a:hover{
     color: #fff;
 }
+@media (max-width: 375px){
+    .login-box {
+        width: 400px;
+        height: 1200px;
+    }
+    .login-box h1{
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 100px;
+    
+    }
+    
+}
