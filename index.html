@@ -1,29 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Login Café De Reyes</title>
-        <link rel="stylesheet" href="css/master.css">
+<html lang="es">
 
-    </head>
-    <body>
-        <div class="login-box" > 
-            <img class="avatar" src="img/logo1.jpg" alt="Logo Cafe">
-            <p></p>
-            <h1>Login Here</h1>
-            <form>
-                <!--User name-->
-                <label for="username">Username</label>
-                <input type="text" placeholder="Enter Username">
-               
-                <label for="password">Password</label>
-                <input type="password" placeholder="Enter Password">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo1.jpg">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <!-- FORMULARIO -->
+    <div class="container">
+        <div class="container-center">
+
+            <!-- ABRE CONTAINER FLEX -->
+            <div class="container-flex">
+                <div class="form">
+
+                    <!-- TITULO FORM -->
+                    <div class="form-title">
+                        <h1>Bienvendios a</h1>
+                        <div class="title-infy">
+                            <img src="img/logo1.jpg" alt="infy" width="18%">
+                            <h1 class="infy">Cafeteria reyes</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed varius libero. Praesent hendrerit fringilla convallis.</p>
+                    </div>
+
+                    <!-- FORMULARIO FORM/INPUTS -->
+                    <form method="POST">
+                        <div class="inputs">
+                            <i class="fas fa-user-friends"></i>
+                            <input type="text" placeholder="Usuario">
+                        </div>
+                        <div class="inputs">
+                            <i class="fas fa-box-open"></i>
+                            <input type="password" placeholder="Contraseña">
+                        </div>
+                        <input type="submit" value="Iniciar Sesión" class="boton">
+                    </form>
+
+                    <div>
+                        <p>Olvidaste Tu Contraseña? <a href="#">Recuperar Ahora</a></p>
+                    </div>
+
                 
-                <input type="submit" value="Log In"> 
-                <!--Enlaces-->
-                <a href="#">Lost your password?</a><br>
-                <a href="#">Don't have an account?</a>
-            </form>
+
+                </div>
+                <!-- CIERRA CONTAINER FORMULARIO -->
+
+                <!-- TEXTO FORMULARIO -->
+                <div class="container-formText">
+                    <div class="formText">
+                        <img src="img/logo1.jpg" alt="Infy" width="20%">
+                        <h2>Cafeteria</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed varius libero. Praesent hendrerit fringilla convallis. Nam eu urna orci. Ut mi erat, tristique sit amet suscipit a, semper vitae ante. </p>
+                    </div>
+                </div>
+                <!-- CIERRE TEXTO FORMULARIO -->
+            </div>
+            <!-- CIERRE CONTAINER FLEX -->
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
